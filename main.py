@@ -2,9 +2,12 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import avg
 
+#added some line
+
 # Initialize a Spark session
 spark = SparkSession.builder.appName("PySparkExample").getOrCreate()
 
+#aaaaaaa
 # Load data from the CSV file
 df = spark.read.csv("C:\\Users\\nranjanm\\Documents\\Practise10", header=True, inferSchema=True)
 
