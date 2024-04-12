@@ -1,2 +1,3 @@
 spark.app.name = lendingclub
-spark.executors.code = 5
+spark.executors.code = 10
+spark.executors.memory = 20
