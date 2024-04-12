@@ -2,6 +2,8 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import avg
 
+#added some line
+
 # Initialize a Spark session
 spark = SparkSession.builder.appName("PySparkExample").getOrCreate()
 
